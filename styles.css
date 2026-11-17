@@ -124,3 +124,16 @@ button:hover {
         padding: 24px;
     }
 }
+
+
+/* Mejora de accesibilidad */
+
+.form-group input:focus-visible {
+    outline: 3px solid #2563eb;
+    outline-offset: 2px;
+}
+
+button:focus-visible {
+    outline: 3px solid #2563eb;
+    outline-offset: 3px;
+}
