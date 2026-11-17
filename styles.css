@@ -1,0 +1,126 @@
+
+/* Configuración general */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f4f8;
+}
+
+/* Contenedor principal */
+
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Tarjeta de acceso */
+
+.login-card {
+    width: 100%;
+    max-width: 420px;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Encabezado */
+
+.login-header {
+    background-color: #17243a;
+    color: white;
+    padding: 28px;
+    text-align: center;
+}
+
+.login-header h1 {
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+.login-header p {
+    margin-top: 8px;
+    color: #cbd5e1;
+    font-size: 13px;
+}
+
+/* Contenido */
+
+.login-content {
+    padding: 32px;
+}
+
+.login-content h2 {
+    color: #17243a;
+    margin-bottom: 8px;
+}
+
+.login-content > p {
+    color: #64748b;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+/* Formulario */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #334155;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Botón */
+
+button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 6px;
+    background-color: #243c60;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #34547e;
+}
+
+/* Pie de página */
+
+.footer-text {
+    text-align: center;
+    margin-top: 22px;
+    font-size: 12px;
+    color: #94a3b8;
+}
+
+/* Adaptación a móviles */
+
+@media (max-width: 480px) {
+    .login-content {
+        padding: 24px;
+    }
+}
